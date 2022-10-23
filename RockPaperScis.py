@@ -56,8 +56,8 @@ for i in stats: print(i, end=" ")
 if stats.count('L') > stats.count('W'):
     result = "\nYou loose the series."
 elif stats.count('L') == stats.count('W'):
-    result = "\nSeries ended in a draw."
+    result = "\nSeries-ended-in-a-draw."
 else:
-    result = "\nYou win the series."
+    result = "\nYou-win-the-series."
 
 print(result)
